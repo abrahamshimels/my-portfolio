@@ -1462,3 +1462,49 @@ section,
   /* Add your styles here */
 }
 
+
+
+
+
+
+.portfolio-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  height:300px;
+}
+.portfolio-wrap:hover {
+  transform: scale(1.02);
+}
+.portfolio-info {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+.portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+  visibility: visible;
+}
+.portfolio-info h4 {
+  font-size: 23px;
+  margin: 0 0 10px;
+  color:white;
+}
+.portfolio-links a {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #fff;
+}
+.portfolio-links a:hover {
+  color: #00bfff;
+}
+
+
